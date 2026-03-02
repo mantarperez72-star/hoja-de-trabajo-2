@@ -1,0 +1,20 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    
+    double subtotal = 100.00;   
+
+    double iva = subtotal * 0.12;
+
+
+    double total = subtotal + iva;
+
+    cout << fixed << setprecision(2);
+    cout << "Subtotal: Q" << subtotal << endl;
+    cout << "IVA (12%): Q" << iva << endl;
+    cout << "Total a pagar: Q" << total << endl;
+
+    return 0;
+}
